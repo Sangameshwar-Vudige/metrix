@@ -1,0 +1,59 @@
+.navbar {
+  background-color: #ffffff;
+  /* White background */
+  color: #000000;
+  /* Black text color */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Your Chosen Font', sans-serif;
+  /* Specify your desired font */
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-list li:hover {
+  color: #3498db;
+  /* Change color on hover */
+}
+
+.nav-list li.active {
+  font-weight: bold;
+  color: #3498db;
+  /* Active tab color */
+}
+
+a {
+  text-decoration: none !important;
+
+}
+
+.text {
+  color: #000000;
+}
+
+td {
+  font-size: large;
+
+}
+
+.logout {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+}
